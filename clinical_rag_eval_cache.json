@@ -1,0 +1,52 @@
+{
+  "llm_only|0|LLM-only baseline|596": {
+    "g": "Unclear",
+    "r": "Unclear",
+    "ts": "2025-09-18 03:51:10"
+  },
+  "rag_baseline|0|RAG Baseline sim k=3|654": {
+    "g": "Fully grounded",
+    "r": "Highly relevant",
+    "ts": "2025-09-18 03:52:41"
+  },
+  "llm_only|1|LLM-only baseline|505": {
+    "g": "Unclear",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:06:48"
+  },
+  "rag_baseline|1|RAG Baseline sim k=3|702": {
+    "g": "Partially grounded",
+    "r": "Highly relevant",
+    "ts": "2025-09-18 04:08:20"
+  },
+  "llm_only|2|LLM-only baseline|509": {
+    "g": "Unclear",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:14:11"
+  },
+  "rag_baseline|2|RAG Baseline sim k=3|655": {
+    "g": "Fully grounded",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:15:41"
+  },
+  "llm_only|3|LLM-only baseline|611": {
+    "g": "Unclear",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:18:03"
+  },
+  "rag_baseline|3|RAG Baseline sim k=3|777": {
+    "g": "Partially grounded",
+    "r": "Highly relevant",
+    "ts": "2025-09-18 04:19:32"
+  },
+  "llm_only|4|LLM-only baseline|542": {
+    "g": "Unclear",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:22:04"
+  },
+  "rag_baseline|4|RAG Baseline sim k=3|753": {
+    "g": "Partially grounded",
+    "r": "Unclear",
+    "ts": "2025-09-18 04:23:35"
+  }
+}

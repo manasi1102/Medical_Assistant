@@ -1,0 +1,910 @@
+{
+  "llm_only": [
+    {
+      "ts": "2025-09-17 21:19:03",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "LLM-only baseline",
+      "params": {
+        "max_tokens": 128,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "top_k": 50
+      },
+      "answer": "Sepsis is a life-threatening condition that can arise from an infection, and prompt recognition and appropriate management are crucial for improving outcomes. In a critical care unit, the following steps should be taken for managing sepsis:\n\n1. Early recognition: Identify patients at risk of developing sepsis based on clinical suspicion, laboratory results, or vital sign abnormalities.\n2. Immediate resuscitation: Begin fluid resuscitation with isotonic crystalloids to maintain adequate tissue perfusion and organ function. Consider the use of vasopressors if necessary to maintain mean arter"
+    },
+    {
+      "ts": "2025-09-17 21:20:56",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "LLM-only baseline",
+      "params": {
+        "max_tokens": 128,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "top_k": 50
+      },
+      "answer": "Appendicitis is a common inflammatory condition of the appendix, a small pouch that extends from the large intestine on the right side of the abdomen. The symptoms of appendicitis can vary, but they typically include:\n\n1. Abdominal pain: The pain is usually located in the lower right quadrant of the abdomen and may start as a mild discomfort that gradually worsens over time. It may be constant or come and go, and it may be accompanied by cramping or bloating.\n2. Loss of appetite: People with appendic"
+    },
+    {
+      "ts": "2025-09-17 21:22:43",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "LLM-only baseline",
+      "params": {
+        "max_tokens": 128,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "top_k": 50
+      },
+      "answer": "Sudden patchy hair loss, also known as alopecia areata, is a common autoimmune disorder that affects the hair follicles. It can cause round or oval bald spots on the scalp, beard, eyebrows, or other areas of the body where hair grows. The exact cause of alopecia areata is not known, but it's believed to be related to an abnormal immune response that attacks the hair follicles.\n\nThere are several treatments for addressing sudden patchy hair loss:\n\n1. Corticosteroids: These medications can help reduce infl"
+    },
+    {
+      "ts": "2025-09-17 21:24:13",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "LLM-only baseline",
+      "params": {
+        "max_tokens": 128,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "top_k": 50
+      },
+      "answer": "A person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function, is typically diagnosed with a traumatic brain injury (TBI). The treatment for TBI depends on the severity and location of the injury. Here are some common treatments recommended for individuals with TBIs:\n\n1. Emergency care: In case of a severe TBI, emergency care is essential to prevent further damage or complications. This may include surgery to remove hematomas or decompressing skull fractures, administering medications to manage swelling or seizures, and providing supportive"
+    },
+    {
+      "ts": "2025-09-17 21:26:03",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "LLM-only baseline",
+      "params": {
+        "max_tokens": 128,
+        "temperature": 0.0,
+        "top_p": 0.95,
+        "top_k": 50
+      },
+      "answer": "First and foremost, it is essential to ensure the safety of the injured person and prevent further harm. If possible, try to stabilize the leg with a makeshift splint or sling to help reduce pain and swelling. Do not attempt to move the person unless it is necessary for their safety or evacuation.\n\nOnce the person is stable and safe, assess the severity of the fracture. If the fracture appears to be severe, such as an open or compound fracture, where the bone has pierced the skin, do not try to realign the bone. Instead, keep the person"
+    }
+  ],
+  "llm_pe": [
+    {
+      "ts": "2025-09-17 21:28:06",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "PE-Deterministic",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Early recognition and assessment: Use the Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score or Quick Sequential [Sepsis-related] Organ Failure Assessment (qSOFA) to identify sepsis suspects.\n2. Immediate fluid resuscitation: Aim for a mean arterial pressure (MAP) ≥65 mmHg and a central venous oxygen saturation (ScvO2) ≥70%. Use crystalloids initially, then consider colloids or blood if intravascular volume depletion persists.\n3. Antibiotics: Administer broad-spectrum antibiotics based on suspected infection site and microbiological culture results.\n4"
+    },
+    {
+      "ts": "2025-09-17 21:29:42",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "PE-MoreCoverage",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Early recognition and assessment: Use the Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score to identify sepsis and its severity.\n2. Fluid resuscitation: Aim for a mean arterial pressure (MAP) ≥65 mmHg and a central venous oxygen saturation (ScvO2) >70%. Use crystalloids initially, then consider colloids or blood products if needed.\n3. Vasopressors: If MAP remains below target despite adequate fluid resuscitation, initiate vasopressor therapy to maintain adequate tissue perfusion.\n4. Antibiotics: Administer broad-spectrum antibiotics based on culture results and local"
+    },
+    {
+      "ts": "2025-09-17 21:31:28",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "PE-StrictBrevity",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": "Answer in ≤120 words."
+      },
+      "answer": "1. Early recognition and assessment using the Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score or Quick Sequential [Sepsis-related] Organ Failure Assessment (qSOFA) tool.\n2. Immediate initiation of appropriate antibiotics based on culture results, suspected infection site, and local guidelines.\n3. Fluid resuscitation to maintain adequate tissue perfusion, with careful monitoring of fluid balance and hemodynamic status.\n4. Adjustment of oxygen therapy to maintain adequate oxygenation and ventilatory support if needed.\n5. Close monitoring of vital signs, laboratory values, and organ function.\n6. Appropriate use of vasopressors or inotropes to maintain"
+    },
+    {
+      "ts": "2025-09-17 21:33:16",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "PE-ClinicalStructure",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": "Use headings: Assessment; Initial steps; Follow-up/When to escalate."
+      },
+      "answer": "Assessment:\n- Identify signs and symptoms of sepsis: fever, chills, tachycardia, hypotension, altered mental status, respiratory distress.\n- Determine source of infection.\n- Assess organ function (e.g., renal, liver, cardiac).\n\nInitial steps:\n1. Administer broad-spectrum antibiotics as soon as possible based on suspected infection site and local guidelines.\n2. Provide fluid resuscitation to maintain adequate tissue perfusion and blood pressure.\n3. Monitor vital signs closely and provide appropriate supportive care (e.g., oxygen therapy, vasopressors).\n4. Initiate goal-directed resuscitation if indicated.\n5."
+    },
+    {
+      "ts": "2025-09-17 21:35:02",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "PE-UncertaintyFlag",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "top_k": 50,
+        "extra": "If a fact is not certain, clearly mark it as uncertain."
+      },
+      "answer": "- Early recognition and prompt initiation of treatment: recognize sepsis early and initiate treatment within 1 hour of recognition for best outcomes (1)\n- Fluid resuscitation: administer intravenous fluids to maintain adequate tissue perfusion and organ function (2)\n- Vasopressor support: use vasopressors if needed to maintain mean arterial pressure (MAP) ≥65 mmHg (3)\n- Antibiotics: administer broad-spectrum antibiotics based on suspected infection site and microbiology results (4)\n- Corticosteroids: consider using corticosteroids in certain situations, such as septic shock or ARDS (5)\n- Source control: address the source of infection if"
+    },
+    {
+      "ts": "2025-09-17 21:38:08",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "PE-Deterministic",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "- Common symptoms of appendicitis include:\n  - Sudden pain in the lower right abdomen, often starting around the navel and moving to the right side\n  - Loss of appetite\n  - Nausea and vomiting\n  - Abdominal swelling\n  - Fever (often low-grade)\n  - Pain upon walking or even slight movement\n\n- Appendicitis cannot be cured via medicine alone. If left untreated, it can lead to rupture of the appendix, peritonitis, and potentially life-threatening complications.\n\n- The standard surgical procedure for treating appendicitis is an appendectomy, which involves removing the inflamed appendix through an incision in the"
+    },
+    {
+      "ts": "2025-09-17 21:39:46",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "PE-MoreCoverage",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "- Common symptoms of appendicitis include:\n  - Sudden pain in the lower right abdomen, often starting around the navel and moving to the right side\n  - Loss of appetite\n  - Nausea and vomiting\n  - Fever\n  - Abdominal swelling\n  - Pain upon walking or even slight movement\n- Appendicitis cannot be cured via medicine alone. If left untreated, it can lead to rupture of the appendix, peritonitis, sepsis, and potentially death.\n- The standard surgical procedure for treating appendicitis is an appendectomy, which involves removing the inflamed appendix. This surgery can be performed laparoscopically (minimally invasive"
+    },
+    {
+      "ts": "2025-09-17 21:41:35",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "PE-StrictBrevity",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": "Answer in ≤120 words."
+      },
+      "answer": "- Common symptoms of appendicitis include:\n  - Sudden pain in the lower right abdomen, often starting around the navel and moving to the right\n  - Loss of appetite\n  - Nausea and vomiting\n  - Fever\n  - Abdominal swelling\n  - Pain upon walking or coughing\n- Appendicitis cannot be cured via medicine alone. If left untreated, it can lead to rupture of the appendix, peritonitis, sepsis, and even death.\n- The standard surgical procedure for treating appendicitis is an appendectomy, which involves removing the inflamed appendix through an incision in the abdomen. This procedure is typically performed laparoscop"
+    },
+    {
+      "ts": "2025-09-17 21:43:27",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "PE-ClinicalStructure",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": "Use headings: Assessment; Initial steps; Follow-up/When to escalate."
+      },
+      "answer": "Assessment:\n- Sudden onset of pain, usually in the lower right abdomen\n- Pain may start as a mild discomfort and gradually worsen over hours\n- Loss of appetite\n- Nausea and vomiting\n- Fever (often low-grade at first)\n- Abdominal swelling and tenderness\n- Constipation or diarrhea\n- Inability to pass gas or have a bowel movement\n\nInitial steps:\n1. Seek medical attention immediately if you suspect appendicitis, as it is a surgical emergency.\n2. A healthcare professional will perform a physical examination and may order imaging tests (such as ultrasound or CT scan) for confirmation.\n3. If"
+    },
+    {
+      "ts": "2025-09-17 21:45:18",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "PE-UncertaintyFlag",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "top_k": 50,
+        "extra": "If a fact is not certain, clearly mark it as uncertain."
+      },
+      "answer": "- Common symptoms of appendicitis include:\n  - Sudden pain in the lower right abdomen, often starting around the navel and moving to the right side\n  - Loss of appetite\n  - Nausea and vomiting\n  - Fever\n  - Abdominal swelling\n  - Pain upon walking or coughing\n- Appendicitis cannot be cured via medicine alone. If left untreated, it can lead to rupture of the appendix, peritonitis, sepsis, and even death.\n- The standard surgical procedure for treating appendicitis is an appendectomy, which involves removing the inflamed appendix through an incision in the abdomen. This procedure is typically performed as a lap"
+    },
+    {
+      "ts": "2025-09-17 21:47:13",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "PE-Deterministic",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Alopecia Areata: This is an autoimmune condition where the immune system attacks hair follicles, causing patchy hair loss. Solutions include:\n   - Corticosteroids (topical or injectable) to reduce inflammation and suppress the immune response.\n   - Immunomodulators like minoxidil or anthralin for topical application.\n   - JAK inhibitors (oral medications) for severe cases.\n2. Traction Alopecia: Hair loss due to excessive pulling or tension on the hair, often caused by hairstyles that pull at the roots. Solutions include:\n   - Avoiding tight hairstyles and allowing natural growth.\n   - Gentle handling of hair during sty"
+    },
+    {
+      "ts": "2025-09-17 21:48:50",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "PE-MoreCoverage",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Alopecia Areata: This is an autoimmune condition where the immune system attacks hair follicles, causing patchy hair loss. Treatment options include:\n   - Corticosteroids (topical or injectable): To reduce inflammation and suppress the immune response.\n   - Immunomodulators: Drugs like minoxidil or anthralin can help stimulate hair regrowth.\n   - Light therapy: UVB phototherapy can be effective in some cases.\n\n2. Traction Alopecia: This is a type of hair loss caused by excessive pulling or tension on the hair. Treatment includes:\n   - Avoiding tight hairstyles and braids.\n   - Gently"
+    },
+    {
+      "ts": "2025-09-17 21:50:42",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "PE-StrictBrevity",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": "Answer in ≤120 words."
+      },
+      "answer": "1. Alopecia Areata: This is an autoimmune condition causing patchy hair loss. No specific treatment can reverse it, but corticosteroids (topical or injectable) may help prevent further hair loss and promote regrowth. Other treatments include immunomodulators like minoxidil or anthralin.\n2. Traction Alopecia: Hair loss due to excessive pulling or tension on the hair, often seen in people who wear tight hairstyles. Avoiding the cause and allowing the hair to rest can promote regrowth.\n3. Nutritional Deficiencies: Lack of essential nutrients like iron, zinc, or vitamin D can lead to hair loss. A balanced diet or supplement"
+    },
+    {
+      "ts": "2025-09-17 21:52:36",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "PE-ClinicalStructure",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": "Use headings: Assessment; Initial steps; Follow-up/When to escalate."
+      },
+      "answer": "Assessment:\n- Sudden patchy hair loss, also known as alopecia areata, is a common autoimmune disorder that causes hair loss in circular patches on the scalp.\n- Other possible causes include stress, hormonal imbalances, nutritional deficiencies, certain medications, and underlying medical conditions such as thyroid disease or lupus.\n\nInitial steps:\n1. Consult a healthcare professional for proper diagnosis and to rule out any underlying medical conditions.\n2. Implement good hair care practices, including avoiding tight hairstyles, excessive heat styling, and harsh chemicals.\n3. Consider dietary modifications to address potential nutritional deficiencies.\n4. Manage stress through relaxation techniques, regular exercise,"
+    },
+    {
+      "ts": "2025-09-17 21:54:27",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "PE-UncertaintyFlag",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "top_k": 50,
+        "extra": "If a fact is not certain, clearly mark it as uncertain."
+      },
+      "answer": "1. Alopecia Areata: This is an autoimmune condition where the immune system attacks hair follicles, causing patchy hair loss. Solutions include:\n   - Corticosteroids (topical or injectable) to reduce inflammation and promote hair regrowth\n   - Immunosuppressive drugs (systemic) for severe cases\n   - Minoxidil (topical) to stimulate hair growth\n2. Traction Alopecia: Hair loss due to excessive pulling or tension on the hair, often caused by hairstyles like tight braids or ponytails. Solutions include:\n   - Avoiding or modifying the hairstyle causing traction\n   - Gentle handling of the hair"
+    },
+    {
+      "ts": "2025-09-17 21:56:55",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "PE-Deterministic",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "- Rest and rehabilitation: Encourage rest to allow the brain to heal. Rehabilitation may include physical, occupational, speech, or cognitive therapy.\n- Medications: Depending on symptoms, medications may be prescribed for pain management, seizure prevention, or to manage other conditions related to the injury (e.g., depression, anxiety).\n- Surgery: In some cases, surgery may be necessary to remove hematomas or repair skull fractures.\n- Nutritional support: Proper nutrition is essential for brain recovery and overall health.\n- Assistive devices: Devices such as wheelchairs, walkers, or communication aids can help improve function and independence.\n- Support groups: Joining a support group can provide"
+    },
+    {
+      "ts": "2025-09-17 21:58:32",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "PE-MoreCoverage",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "- Rest and rehabilitation: Encourage rest to allow the brain to heal. Rehabilitation may include physical, occupational, speech, and cognitive therapy.\n- Medications: Depending on specific symptoms, medications may be prescribed for pain management, seizure prevention, or to manage conditions like depression or anxiety.\n- Surgery: In some cases, surgery may be necessary to remove hematomas (clots) or repair skull fractures.\n- Nutritional support: Proper nutrition is essential for brain health and recovery. A balanced diet rich in fruits, vegetables, lean proteins, and healthy fats can support the healing process.\n- Cognitive stimulation: Engaging in mentally stimulating activities, such as puzzles or reading,"
+    },
+    {
+      "ts": "2025-09-17 22:00:20",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "PE-StrictBrevity",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": "Answer in ≤120 words."
+      },
+      "answer": "- Emergency care: Prioritize airway, breathing, and circulation.\n- Rehabilitation: Physical therapy, occupational therapy, speech therapy, cognitive rehabilitation.\n- Medications: May include anti-seizure drugs, pain relievers, psychotropic medications for behavioral symptoms.\n- Surgery: Depending on the injury, surgery may be necessary to remove hematomas or repair skull fractures.\n- Alternative therapies: Acupuncture, massage, transcranial magnetic stimulation, biofeedback.\n- Supportive care: Nutritional support, hygiene assistance, social support.\nSafety disclaimer: Always consult a healthcare professional for appropriate treatment and dosage information. The above list is not exhaust"
+    },
+    {
+      "ts": "2025-09-17 22:02:12",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "PE-ClinicalStructure",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": "Use headings: Assessment; Initial steps; Follow-up/When to escalate."
+      },
+      "answer": "Assessment:\n- Determine the severity and location of the brain injury.\n- Assess the extent of impairment in cognitive, sensory, motor, or speech functions.\n- Evaluate the patient's vital signs, level of consciousness, and presence of any neurological symptoms.\n\nInitial steps:\n1. Provide appropriate first aid and ensure the safety of the patient.\n2. Monitor vital signs closely and provide oxygen support if necessary.\n3. Administer medications to manage symptoms such as pain, swelling, or seizures.\n4. Initiate rehabilitation programs to address any impairments in cognitive, sensory, motor, or speech functions.\n5. Encourage family involvement in the patient's care"
+    },
+    {
+      "ts": "2025-09-17 22:04:02",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "PE-UncertaintyFlag",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "top_k": 50,
+        "extra": "If a fact is not certain, clearly mark it as uncertain."
+      },
+      "answer": "- Rest and rehabilitation: Encourage rest to allow the brain to heal. Rehabilitation can help improve function and compensate for impairments.\n- Medications: Depending on specific symptoms, medications may be prescribed to manage conditions such as seizures, pain, or depression.\n- Therapies: Various therapies may be recommended based on the individual's needs, including physical therapy, occupational therapy, speech therapy, and cognitive rehabilitation.\n- Surgery: In some cases, surgery may be necessary to remove hematomas or other lesions that are causing pressure on the brain.\n- Assistive devices: Devices such as wheelchairs, walkers, or communication aids can help individuals with physical impair"
+    },
+    {
+      "ts": "2025-09-17 22:05:55",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "PE-Deterministic",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Assess the severity of the injury: Determine if it's an open or closed fracture, and check for signs of nerve or blood vessel damage (numbness, tingling, loss of pulse).\n2. Provide first aid: Apply a sterile dressing to the wound if it's open, and immobilize the leg using a splint or sling to prevent further injury.\n3. Transport safely: If possible, carry the person to a safe location for further medical assistance. Avoid moving them unnecessarily to minimize pain and potential complications.\n4. Seek professional help: Contact emergency services or arrange transportation to a hospital for proper evaluation and treatment.\n5. Pain management: Administer over-the-counter pain"
+    },
+    {
+      "ts": "2025-09-17 22:07:31",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "PE-MoreCoverage",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.3,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": ""
+      },
+      "answer": "1. Assess the severity of the injury: Determine if it's an open or closed fracture, and check for signs of nerve or blood vessel damage (numbness, tingling, loss of pulse).\n2. Provide first aid: Immobilize the leg using a splint or sling to prevent further movement and reduce swelling. Apply a sterile dressing if the fracture is open.\n3. Transport safely: If possible, transport the person to the nearest medical facility using a stretcher or other appropriate means to minimize discomfort and potential complications.\n4. Pain management: Administer pain relief as needed through non-narcotic methods such as acetaminophen or ibuprofen, if permitted by the healthcare"
+    },
+    {
+      "ts": "2025-09-17 22:09:22",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "PE-StrictBrevity",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.0,
+        "top_p": 1.0,
+        "top_k": 50,
+        "extra": "Answer in ≤120 words."
+      },
+      "answer": "- Assess airway, breathing, and circulation.\n- Immobilize the leg using a splint or sling to prevent further damage.\n- Apply ice packs to reduce swelling.\n- Provide pain relief with over-the-counter analgesics or prescription pain medication as needed.\n- Transport the person to the nearest medical facility for evaluation and treatment.\n- Consider potential complications such as infection, deep vein thrombosis (DVT), or nerve damage.\n- During recovery, encourage regular exercise and physical therapy to regain strength and mobility.\n- Provide emotional support and ensure proper nutrition and hydration.\nSafety Disclaimer: This information is intended for educational purposes only and should not be used as a substitute"
+    },
+    {
+      "ts": "2025-09-17 22:11:14",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "PE-ClinicalStructure",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "top_k": 50,
+        "extra": "Use headings: Assessment; Initial steps; Follow-up/When to escalate."
+      },
+      "answer": "Assessment:\n- Assess the severity of the fracture: open or closed, displaced or non-displaced.\n- Check for signs of nerve or vessel injury: pulses, sensation, and color of the affected limb.\n- Evaluate the patient's overall condition: vital signs, level of consciousness, and presence of other injuries.\n\nInitial steps:\n1. Immobilize the leg using a splint or a makeshift sling to prevent further damage and provide support.\n2. Provide pain relief with over-the-counter analgesics or prescribed medication as needed.\n3. Ensure proper hydration and nutrition.\n4. Transport the patient to the nearest medical facility for further evaluation and treatment"
+    },
+    {
+      "ts": "2025-09-17 22:13:05",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "PE-UncertaintyFlag",
+      "params": {
+        "max_tokens": 160,
+        "temperature": 0.1,
+        "top_p": 0.9,
+        "top_k": 50,
+        "extra": "If a fact is not certain, clearly mark it as uncertain."
+      },
+      "answer": "1. Assess the severity of the injury: Determine if it's an open or closed fracture, and check for signs of nerve or blood vessel damage (numbness, tingling, loss of pulse).\n2. Provide first aid: Apply a sterile dressing to the wound if it's open, and immobilize the leg using a splint or sling.\n3. Ensure proper positioning: Position the person comfortably with the fractured leg elevated to reduce swelling and pain.\n4. Seek medical help: Arrange for transportation to a hospital as soon as possible. Do not move the person unnecessarily, especially if there's suspicion of serious injury.\n5. Monitor vital signs: Keep track of"
+    }
+  ],
+  "rag_baseline": [
+    {
+      "ts": "2025-09-17 22:25:43",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG Baseline sim k=3",
+      "params": {
+        "k": 3,
+        "search_type": "similarity",
+        "max_tokens": 176,
+        "temperature": 0.0,
+        "top_p": 0.95
+      },
+      "answer": "Suspected sepsis or septic shock in a critical care unit requires immediate attention due to the high risk of mortality. The patient should be treated in an ICU with experienced personnel [Page 2400]. Supportive care includes adequate nutrition, prevention of infection, stress ulcers, and gastritis, and pulmonary embolism [Page 131, 21]. Monitoring includes vital signs, fluid intake and output, daily weight, blood pressure (BP), central venous pressure (CVP), pulmonary artery occlusive pressure (PAOP), pulse oximetry, arterial blood gases (ABGs), blood glucose, lactate, electrolyte levels, renal function, and possibly sublingual PCO2 [Page 2455]."
+    },
+    {
+      "ts": "2025-09-17 22:33:59",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG Baseline sim k=3",
+      "params": {
+        "k": 3,
+        "search_type": "similarity",
+        "max_tokens": 176,
+        "temperature": 0.0,
+        "top_p": 0.95
+      },
+      "answer": "The common symptoms of appendicitis include epigastric or periumbilical pain followed by nausea, vomiting, and anorexia, which later shifts to the right lower quadrant. Pain increases with cough and motion. Classic signs are direct and rebound tenderness at McBurney's point, Rovsing sign, psoas sign, or obturator sign. A low-grade fever is also common. However, these classic findings appear in less than 50% of patients, and symptoms may not be localized, particularly in infants and children [173]. Appendicitis cannot be cured via medicine alone; surgical removal is the treatment of choice [174]. Open or laparoscopic appendectomy is performed, with antibiotics given before surgery to reduce mor"
+    },
+    {
+      "ts": "2025-09-17 22:44:44",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG Baseline sim k=3",
+      "params": {
+        "k": 3,
+        "search_type": "similarity",
+        "max_tokens": 176,
+        "temperature": 0.0,
+        "top_p": 0.95
+      },
+      "answer": "Alopecia areata is a common cause of sudden patchy hair loss, affecting people with no obvious skin or systemic disorder [Page 858]. The scalp and beard are most frequently affected areas. This condition is believed to be an autoimmune disorder that affects genetically susceptible individuals exposed to unclear environmental triggers [Page 86]. Treatment options for alopecia areata include topical, intralesional, or systemic corticosteroids, topical minoxidil, topical anthralin, topical immunotherapy (diphencyprone or squaric acid dibutylester), or psoralen plus ultraviolet A (PUVA) [Page 858]. Hormonal modulators such as oral contraceptives or sp"
+    },
+    {
+      "ts": "2025-09-17 22:50:42",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG Baseline sim k=3",
+      "params": {
+        "k": 3,
+        "search_type": "similarity",
+        "max_tokens": 176,
+        "temperature": 0.0,
+        "top_p": 0.95
+      },
+      "answer": "For mild brain injuries, discharge and observation are recommended [Page 3409]. For moderate to severe injuries, optimization of ventilation, oxygenation, and brain perfusion is necessary along with treatment of complications such as increased intracranial pressure, seizures, and hematomas. Rehabilitation is also essential [Page 3409]. In the event of a clear airway and external bleeding control at the injury scene, proper immobilization should be maintained until stability of the entire spine is established [Page 3409]. Pain relief can be provided with a short-acting opioid such as fentanyl [Page 3409]. For patients with cognitive deficits and communication difficulties, speech therapists may help establish a communication code using eye blinks or movements [Page 34"
+    },
+    {
+      "ts": "2025-09-17 23:02:06",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG Baseline sim k=3",
+      "params": {
+        "k": 3,
+        "search_type": "similarity",
+        "max_tokens": 176,
+        "temperature": 0.0,
+        "top_p": 0.95
+      },
+      "answer": "A leg fracture, typically caused by severe direct force or an axial load to the flexed knee [Page 3396], requires immediate attention. The person should be stabilized with splinting and transported to a healthcare facility for further treatment, which is usually ORIF (Open Reduction Internal Fixation) and early mobilization [Page 3396]. In the emergency department, life-threatening injuries are treated first, followed by definitive treatment like reduction. Splinting is used to prevent further injury and decrease pain [Page 3390]. Pain management may involve opioids [Page 3390]. For long-bone fractures, splinting can also help prevent fat embolism. Nerve injuries or arterial injuries might require additional diagnostic tests like arteriography"
+    }
+  ],
+  "rag_combos": [
+    {
+      "ts": "2025-09-17 23:09:53",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG: Baseline Sim k=3",
+      "params": {
+        "name": "RAG: Baseline Sim k=3",
+        "mode": "reuse",
+        "k": 3,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Suspected sepsis or septic shock in a critical care unit requires immediate attention due to the high risk of mortality. The patient should be treated in an ICU with experienced personnel [Page 2400]. Supportive care includes adequate nutrition, prevention of infection, stress ulcers, and gastritis, and pulmonary embolism [Page 131, 21]. Monitoring includes vital signs, fluid intake and output, daily weight, blood pressure (BP), central venous pressure (CVP), pulmonary artery occlusive pressure (PAOP), pulse oximetry, arterial blood gases (ABGs), blood glucose, lactate, electrolyte levels, renal function, and possibly sublingual PCO2 [Page 2455]."
+    },
+    {
+      "ts": "2025-09-17 23:14:53",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG: Broader Sim k=5",
+      "params": {
+        "name": "RAG: Broader Sim k=5",
+        "mode": "reuse",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Sepsis is a life-threatening condition requiring prompt management in an ICU. The protocol includes supportive care such as adequate nutrition, prevention of infection, stress ulcers, and gastritis [Page 2400]. Patients with sepsis or septic shock should be monitored frequently for systemic pressure, CVP or PAOP, pulse oximetry, ABGs, blood glucose, lactate, electrolyte levels, renal function, and possibly sublingual PCO2 [Page 2455]. Fluid resuscitation with 0.9% normal saline should be initiated until CVP reaches 8 mm Hg (10 cm H2O) or PAOP reaches 12 to 15 mm Hg, and oliguria with hyp"
+    },
+    {
+      "ts": "2025-09-17 23:20:47",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG: MMR k=4",
+      "params": {
+        "name": "RAG: MMR k=4",
+        "mode": "reuse",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "In a critical care unit, sepsis management involves supportive care such as adequate nutrition, prevention of infection, stress ulcers and gastritis, and pulmonary embolism [Page 2400]. Monitoring includes manual and ongoing methods to assess vital signs, fluid intake and output, daily weight, and blood pressure using automated sphygmomanometers or transcutaneous sensors for pulse oximetry [Page 2400]. Continuous monitoring may be provided by complex devices requiring special training. For sepsis treatment, intravenous infusion of corticosteroids like hydrocortisone is used at a dosage of 24 μg/kg/h for 96 hours [Page 2456]. Contraindications include recent hemorrhagic stroke, sp"
+    },
+    {
+      "ts": "2025-09-17 23:28:36",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG: Smaller 900/150 k=5",
+      "params": {
+        "name": "RAG: Smaller 900/150 k=5",
+        "mode": "build",
+        "embed": "sentence-transformers/all-MiniLM-L6-v2",
+        "chunk": 900,
+        "overlap": 150,
+        "rtype": "similarity",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "The management of sepsis in a critical care unit involves initial first aid measures such as maintaining the patient's warmth, controlling hemorrhage, checking the airway and ventilation, and providing respiratory assistance if necessary [Page 2400]. Septic shock, a severe form of sepsis, requires aggressive fluid resuscitation, antibiotics, surgical excision or drainage of infected tissues, supportive care, and sometimes intensive control of blood glucose and administration of corticosteroids and activated protein C [Page 2453]. Treatment begins simultaneously with evaluation. Supplemental oxygen is provided, and airway intubation with mechanical ventilation is necessary if shock is severe or if ventilation is inadequate [Page 2453]. Two large IV catheters are"
+    },
+    {
+      "ts": "2025-09-17 23:37:14",
+      "question_idx": 0,
+      "question": "What is the protocol for managing sepsis in a critical care unit?",
+      "approach": "RAG: BGE-small MMR k=4",
+      "params": {
+        "name": "RAG: BGE-small MMR k=4",
+        "mode": "build",
+        "embed": "BAAI/bge-small-en-v1.5",
+        "chunk": 1200,
+        "overlap": 200,
+        "rtype": "mmr",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 176
+      },
+      "answer": "Sepsis, severe sepsis, and septic shock are inflammatory states resulting from bacterial infection [Page 2453]. In these conditions, there is a critical reduction in tissue perfusion [Page 2453]. Common causes include gram-negative organisms, staphylococci, and meningococci [Page 2453]. Symptoms may begin with shaking chills and include fever, hypotension, oliguria, and confusion [Page 2453]. Acute failure of multiple organs, including the lungs, kidneys, and liver, can occur [Page 2453].\n\nImmediate action is essential for sepsis management in a critical care unit. Supportive care includes aggressive fluid resuscitation [Page 24"
+    },
+    {
+      "ts": "2025-09-17 23:45:13",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG: Baseline Sim k=3",
+      "params": {
+        "name": "RAG: Baseline Sim k=3",
+        "mode": "reuse",
+        "k": 3,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "The common symptoms of appendicitis include epigastric or periumbilical pain followed by nausea, vomiting, and anorexia, which later shifts to the right lower quadrant. Pain increases with cough and motion. Classic signs are direct and rebound tenderness at McBurney's point, Rovsing sign, psoas sign, or obturator sign. A low-grade fever is also common. However, these classic findings appear in less than 50% of patients, and symptoms may not be localized, particularly in infants and children [173]. Appendicitis cannot be cured via medicine alone; surgical removal is the treatment of choice [174]. Open or laparoscopic appendectomy is performed, with antibiotics given before surgery to reduce mor"
+    },
+    {
+      "ts": "2025-09-17 23:49:12",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG: Broader Sim k=5",
+      "params": {
+        "name": "RAG: Broader Sim k=5",
+        "mode": "reuse",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "The common symptoms of appendicitis include epigastric or periumbilical pain followed by brief nausea, vomiting, and anorexia, which later shifts to the right lower quadrant. Pain increases with cough and motion. Classic signs are right lower quadrant direct and rebound tenderness located at McBurney's point. Additional signs include Rovsing sign, psoas sign, or obturator sign. A low-grade fever is common. Unfortunately, these classic findings appear in less than 50% of patients, and symptoms may not be localized, particularly in infants and children.\n\nAppendicitis cannot be cured via medicine alone; surgery is the primary treatment. The surgical procedure involves open or laparoscopic appendectomy. Treatment delay increases mortality, so"
+    },
+    {
+      "ts": "2025-09-17 23:56:04",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG: MMR k=4",
+      "params": {
+        "name": "RAG: MMR k=4",
+        "mode": "reuse",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Appendicitis is characterized by epigastric or periumbilical pain followed by nausea, vomiting, and anorexia, which later shifts to the right lower quadrant. Pain increases with cough and motion. Classic signs include direct and rebound tenderness at McBurney's point, Rovsing sign, psoas sign, or obturator sign. A low-grade fever is common but not always present [173]. If untreated, appendicitis can lead to necrosis, gangrene, and perforation. The treatment typically involves antibiotics for infection control and surgery to drain abscesses, correct underlying structural abnormalities, or relieve obstruction [173]. In some cases, a renal cortical or perinephric abscess"
+    },
+    {
+      "ts": "2025-09-18 00:02:53",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG: Smaller 900/150 k=5",
+      "params": {
+        "name": "RAG: Smaller 900/150 k=5",
+        "mode": "build",
+        "embed": "sentence-transformers/all-MiniLM-L6-v2",
+        "chunk": 900,
+        "overlap": 150,
+        "rtype": "similarity",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "The common symptoms of appendicitis include epigastric or periumbilical pain followed by brief nausea, vomiting, and anorexia, which later shifts to the right lower quadrant. The pain increases with cough and motion, and there is direct and rebound tenderness at McBurney's point [Page 173]. Appendicitis is typically treated via surgical removal of the appendix due to the risk of necrosis, gangrene, and perforation if left untreated. The diagnosis remains primarily clinical, but imaging studies like CT or ultrasound can be used for supplemental information [Page 173]. Treatment is not curable via medicine alone. Safety: Surgical intervention for appendicitis carries risks such as infection, anesthesia complications"
+    },
+    {
+      "ts": "2025-09-18 00:10:56",
+      "question_idx": 1,
+      "question": "What are the common symptoms of appendicitis, and can it be cured via medicine? If not, what surgical procedure should be followed to treat it?",
+      "approach": "RAG: BGE-small MMR k=4",
+      "params": {
+        "name": "RAG: BGE-small MMR k=4",
+        "mode": "build",
+        "embed": "BAAI/bge-small-en-v1.5",
+        "chunk": 1200,
+        "overlap": 200,
+        "rtype": "mmr",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 176
+      },
+      "answer": "The common symptoms of appendicitis include epigastric or periumbilical pain followed by brief nausea, vomiting, and anorexia; after a few hours, the pain shifts to the right lower quadrant. Pain increases with cough and motion. Classic signs are right lower quadrant direct and rebound tenderness located at McBurney's point. Additional signs include pain felt in the right lower quadrant with palpation of the left lower quadrant (Rovsing sign), an increase in pain from passive extension of the right hip joint, or pain caused by passive internal rotation of the flexed thigh. Appendicitis cannot be cured via medicine alone; surgery is required for treatment. The involved section of the colon is resected, and the ends can be reanastomosed immediately in healthy patients without"
+    },
+    {
+      "ts": "2025-09-18 00:18:11",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG: Baseline Sim k=3",
+      "params": {
+        "name": "RAG: Baseline Sim k=3",
+        "mode": "reuse",
+        "k": 3,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Alopecia areata is a common cause of sudden patchy hair loss, affecting people with no obvious skin or systemic disorder [Page 858]. The scalp and beard are most frequently affected areas. This condition is believed to be an autoimmune disorder that affects genetically susceptible individuals exposed to unclear environmental triggers [Page 86]. Treatment options for alopecia areata include topical, intralesional, or systemic corticosteroids, topical minoxidil, topical anthralin, topical immunotherapy (diphencyprone or squaric acid dibutylester), or psoralen plus ultraviolet A (PUVA) [Page 858]. Hormonal modulators such as oral contraceptives or sp"
+    },
+    {
+      "ts": "2025-09-18 00:23:11",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG: Broader Sim k=5",
+      "params": {
+        "name": "RAG: Broader Sim k=5",
+        "mode": "reuse",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Alopecia areata is a common cause of sudden patchy hair loss. It is an autoimmune disorder affecting genetically susceptible individuals exposed to unclear environmental triggers [Page 858]. The scalp and beard are most frequently affected, but any hairy area may be involved [Page 858]. Treatment options for alopecia areata include topical, intralesional, or systemic corticosteroids, topical minoxidil, topical anthralin, topical immunotherapy (diphencyprone or squaric acid dibutylester), or psoralen plus ultraviolet A (PUVA) [Page 858]. Hormonal modulators such as oral contraceptives or spironolactone may be useful"
+    },
+    {
+      "ts": "2025-09-18 00:32:06",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG: MMR k=4",
+      "params": {
+        "name": "RAG: MMR k=4",
+        "mode": "reuse",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Sudden patchy hair loss, also known as alopecia areata, is characterized by round patches of baldness on the scalp or any other hair-bearing areas. The exact cause of this condition is unknown but it's believed to be an autoimmune disorder that affects genetically susceptible individuals exposed to unclear environmental triggers [Page 858]. A thorough evaluation, including microscopic hair examination or scalp biopsy, may be required for a definitive diagnosis.\n\nTreatment options for alopecia areata include:\n1. Minoxidil: This medication prolongs the anagen growth phase and enlarges miniaturized follicles, promoting hair regrowth [Page 859]. It's available as a topical solution (2% for"
+    },
+    {
+      "ts": "2025-09-18 00:40:05",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG: Smaller 900/150 k=5",
+      "params": {
+        "name": "RAG: Smaller 900/150 k=5",
+        "mode": "build",
+        "embed": "sentence-transformers/all-MiniLM-L6-v2",
+        "chunk": 900,
+        "overlap": 150,
+        "rtype": "similarity",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "Sudden patchy hair loss, also known as alopecia areata, is a common autoimmune disorder characterized by the sudden appearance of bald spots on the scalp or other areas of the body where hair grows [857]. The exact cause of alopecia areata is unknown, but it's believed to be an autoimmune condition in which the immune system attacks the hair follicles, leading to hair loss.\n\nEffective treatments for alopecia areata include:\n1. Topical corticosteroids: These medications can help reduce inflammation and promote hair regrowth [858].\n2. Immunotherapy: Diphencyprone or squaric acid dibutylester can be used to stimulate an immune response that may help promote hair growth ["
+    },
+    {
+      "ts": "2025-09-18 00:48:15",
+      "question_idx": 2,
+      "question": "What are the effective treatments or solutions for addressing sudden patchy hair loss, commonly seen as localized bald spots on the scalp, and what could be the possible causes behind it?",
+      "approach": "RAG: BGE-small MMR k=4",
+      "params": {
+        "name": "RAG: BGE-small MMR k=4",
+        "mode": "build",
+        "embed": "BAAI/bge-small-en-v1.5",
+        "chunk": 1200,
+        "overlap": 200,
+        "rtype": "mmr",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 176
+      },
+      "answer": "Sudden patchy hair loss, or localized bald spots on the scalp, can be caused by various conditions including tinea capitis (scalp ringworm), alopecia areata, trichotillomania, and scarring alopecia. Effective treatments depend on the underlying cause. For tinea capitis, topical or oral antifungals may be prescribed [Page 858]. Alopecia areata can be treated with topical corticosteroids, minoxidil, anthralin, immunotherapy (diphencyprone or squaric acid dibutylester), or systemic corticosteroids in severe cases [Page 858]. Traction alopecia is managed by eliminating physical traction or stress to the scal"
+    },
+    {
+      "ts": "2025-09-18 01:00:40",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG: Baseline Sim k=3",
+      "params": {
+        "name": "RAG: Baseline Sim k=3",
+        "mode": "reuse",
+        "k": 3,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "For mild brain injuries, discharge and observation are recommended [Page 3409]. For moderate to severe injuries, optimization of ventilation, oxygenation, and brain perfusion is necessary along with treatment of complications such as increased intracranial pressure, seizures, and hematomas. Rehabilitation is also essential [Page 3409]. In the event of a clear airway and external bleeding control at the injury scene, proper immobilization should be maintained until stability of the entire spine is established [Page 3409]. Pain relief can be provided with a short-acting opioid such as fentanyl [Page 3409]. For patients with cognitive deficits and communication difficulties, speech therapists may help establish a communication code using eye blinks or movements [Page 34"
+    },
+    {
+      "ts": "2025-09-18 01:04:21",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG: Broader Sim k=5",
+      "params": {
+        "name": "RAG: Broader Sim k=5",
+        "mode": "reuse",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "For mild brain injuries, observation and discharge are recommended [Page 3407]. For moderate to severe injuries, optimization of ventilation, oxygenation, and brain perfusion is necessary, along with treatment for complications such as increased intracranial pressure, seizures, and hematomas. Rehabilitation is also essential [Page 3409]. In the case of communication difficulties due to cognitive deficits, speech therapists may help establish a communication code using eye blinks or movements [Page 324. Traumatic Brain Injury, p. 3409]. For patients with brain death, which is characterized by loss of function of the entire cerebrum and brain stem, recovery does not occur [Page 1844]. The diagnosis of brain death involves serial determination of clinical criteria"
+    },
+    {
+      "ts": "2025-09-18 01:10:50",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG: MMR k=4",
+      "params": {
+        "name": "RAG: MMR k=4",
+        "mode": "reuse",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "For a person with traumatic brain injury, the Merck Manual suggests that recovery of normal neurologic function is possible if the persistent vegetative state lasts for three months, but almost none recover after six months [Page 3407]. Treatments to promote nerve regeneration are under investigation and include injections of autologous macrophages, epidural administration of BA-210, an experimental drug, and oral administration of HP-184 for chronic spinal cord injury [Page 3416]. There is also ongoing research into the use of stem cells. For dementia, which may be a result of brain injury or other causes, recommended treatments include measures to ensure safety, provision of appropriate stimulation and activities, elimination of sedating or anticholinergic drugs, possibly cholines"
+    },
+    {
+      "ts": "2025-09-18 01:17:56",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG: Smaller 900/150 k=5",
+      "params": {
+        "name": "RAG: Smaller 900/150 k=5",
+        "mode": "build",
+        "embed": "sentence-transformers/all-MiniLM-L6-v2",
+        "chunk": 900,
+        "overlap": 150,
+        "rtype": "similarity",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "For a person with traumatic brain injury (TBI), there is no specific treatment beyond supportive care. This includes preventing systemic complications such as pneumonia, UTI, and thromboembolic disease; providing good nutrition; and preventing pressure ulcers [1842]. Early intervention by rehabilitation specialists is crucial for maximal functional recovery. Rehabilitation services should be planned early and include prevention of secondary disabilities, such as pressure ulcers and joint contractures, and family education [3403]. For patients with severe cognitive dysfunction, extensive cognitive therapy may be required immediately after injury and continued for months or years [3647]. There is no specific medical treatment for stroke or central lesions, but physical and occupational therapy may modestly improve functioning [1820].\n\nSafety"
+    },
+    {
+      "ts": "2025-09-18 01:25:37",
+      "question_idx": 3,
+      "question": "What treatments are recommended for a person who has sustained a physical injury to brain tissue, resulting in temporary or permanent impairment of brain function?",
+      "approach": "RAG: BGE-small MMR k=4",
+      "params": {
+        "name": "RAG: BGE-small MMR k=4",
+        "mode": "build",
+        "embed": "BAAI/bge-small-en-v1.5",
+        "chunk": 1200,
+        "overlap": 200,
+        "rtype": "mmr",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 176
+      },
+      "answer": "Initial treatment for a person with traumatic brain injury (TBI) includes ensuring a reliable airway, maintaining adequate ventilation, oxygenation, and blood pressure. Surgery may be needed to place monitors to track and treat intracranial pressure or decompress the brain if necessary [Page 3244]. In the acute phase, preventing complications such as contractures, pressure ulcers, pneumonia, orthostatic hypotension, atelectasis, deep venous thrombosis, and pulmonary embolism is essential [Page 3647]. Subsequently, many patients require rehabilitation. Speech therapy and augmentative communication devices may help improve language function [Page 1819]. The effectiveness of treatment depends on the cause, size, location, and extent of lesions,"
+    },
+    {
+      "ts": "2025-09-18 01:32:09",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG: Baseline Sim k=3",
+      "params": {
+        "name": "RAG: Baseline Sim k=3",
+        "mode": "reuse",
+        "k": 3,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "A leg fracture, typically caused by severe direct force or an axial load to the flexed knee [Page 3396], requires immediate attention. The person should be stabilized with splinting and transported to a healthcare facility for further treatment, which is usually ORIF (Open Reduction Internal Fixation) and early mobilization [Page 3396]. In the emergency department, life-threatening injuries are treated first, followed by definitive treatment like reduction. Splinting is used to prevent further injury and decrease pain [Page 3390]. Pain management may involve opioids [Page 3390]. For long-bone fractures, splinting can also help prevent fat embolism. Nerve injuries or arterial injuries might require additional diagnostic tests like arteriography"
+    },
+    {
+      "ts": "2025-09-18 01:36:10",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG: Broader Sim k=5",
+      "params": {
+        "name": "RAG: Broader Sim k=5",
+        "mode": "reuse",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "A fractured leg, typically caused by severe direct force or an axial load to the flexed knee [Page 3396], requires immediate attention. The person should be stabilized with splinting to prevent further injury and decrease pain [Page 3390]. Treatment usually involves ORIF (open reduction and internal fixation) for unstable fractures [Page 3396]. In the meantime, rest, ice, compression, and elevation (RICE) can help manage symptoms [Page 3390]. For life-threatening injuries or those affecting major arteries or nerves, prompt surgical intervention may be necessary [Page 3390]. Prevention of immobility is crucial to prevent complications like deep vein thrombosis (DVT) [Page 23"
+    },
+    {
+      "ts": "2025-09-18 01:43:16",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG: MMR k=4",
+      "params": {
+        "name": "RAG: MMR k=4",
+        "mode": "reuse",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "A leg fracture, typically caused by severe direct force or an axial load to the flexed knee [Page 3396], requires immediate attention. The person should be splinted and transported for ORIF (Open Reduction and Internal Fixation) treatment as soon as possible [Page 3396]. In the interim, they should rest, avoid weight-bearing activities, and elevate the affected leg above heart level to reduce swelling [RICE: Rest, Ice, Compression, Elevation, Page 3499]. Pain control can be achieved through analgesics such as acetaminophen or NSAIDs [Page 3330].\n\nAdditionally, the person's overall health and specific conditions should be considered during their care and recovery. For instance, those with diabetes"
+    },
+    {
+      "ts": "2025-09-18 01:50:30",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG: Smaller 900/150 k=5",
+      "params": {
+        "name": "RAG: Smaller 900/150 k=5",
+        "mode": "build",
+        "embed": "sentence-transformers/all-MiniLM-L6-v2",
+        "chunk": 900,
+        "overlap": 150,
+        "rtype": "similarity",
+        "k": 5,
+        "temp": 0.2,
+        "top_p": 0.95,
+        "max_tokens": 176
+      },
+      "answer": "A person with a fractured leg, especially those who are at higher risk due to major surgery or bedbound patients with significant medical illnesses [Page 2384], should be encouraged to move their legs periodically for DVT prevention. For those with more severe injuries, such as open fractures or those requiring surgical intervention, additional preventive measures may include thrombosis prophylaxis using low-dose unfractionated heparin (UFH) or low molecular weight heparin (LMWH) [Page 3388]. In the emergency department, evaluation for signs of hemorrhagic shock and ischemia is essential. Treatment may involve splinting, definitive treatment like reduction, rest, ice, compression, and elevation (RICE), and immobilization [Page 3"
+    },
+    {
+      "ts": "2025-09-18 01:57:42",
+      "question_idx": 4,
+      "question": "What are the necessary precautions and treatment steps for a person who has fractured their leg during a hiking trip, and what should be considered for their care and recovery?",
+      "approach": "RAG: BGE-small MMR k=4",
+      "params": {
+        "name": "RAG: BGE-small MMR k=4",
+        "mode": "build",
+        "embed": "BAAI/bge-small-en-v1.5",
+        "chunk": 1200,
+        "overlap": 200,
+        "rtype": "mmr",
+        "k": 4,
+        "temp": 0.0,
+        "top_p": 0.9,
+        "max_tokens": 176
+      },
+      "answer": "A fractured leg requires careful attention to prevent complications and ensure proper healing. The person should be instructed to rest and avoid weight-bearing activities, including hiking [Page 3642]. For stair-climbing, they should ascend with their good leg and descend with the affected leg for safety [Page 3642]. The stump of the leg should be inspected daily, washed thoroughly, dried, and dusted with talcum powder [Page 3635]. If there are signs of tendon inflammation or stress fractures, such as pain, swelling, or a palpable defect, treatment includes ice, NSAIDs, gentle stretches, and modification of activities [Page 3388, 3509]. In case of a complete Achilles tendon"
+    }
+  ]
+}
